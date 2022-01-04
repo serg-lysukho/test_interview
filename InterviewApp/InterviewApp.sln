@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp", "InterviewApp\InterviewApp.csproj", "{C57165C7-A758-4AE3-9945-A6C49D4CC54E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp.DAL", "InterviewApp.DAL\InterviewApp.DAL.csproj", "{F352095D-500F-4FAD-A3BF-28527A0DA3D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp.BLL", "InterviewApp.BLL\InterviewApp.BLL.csproj", "{94A13177-537D-4960-A27A-D396E84DB502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp.ApiClients", "InterviewApp.ImdbClient\InterviewApp.ApiClients.csproj", "{59CD0F68-1E20-484F-9E56-7F3FEFEBA200}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewApp.Configuration", "InterviewApp.Configuration\InterviewApp.Configuration.csproj", "{9ADF3B87-7B51-4934-8262-841BE94086B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewApp.BackgroundTasks", "InterviewApp.BackgroundTasks\InterviewApp.BackgroundTasks.csproj", "{393665DE-C377-45CA-A113-AB4373AA1B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C57165C7-A758-4AE3-9945-A6C49D4CC54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57165C7-A758-4AE3-9945-A6C49D4CC54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57165C7-A758-4AE3-9945-A6C49D4CC54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57165C7-A758-4AE3-9945-A6C49D4CC54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F352095D-500F-4FAD-A3BF-28527A0DA3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F352095D-500F-4FAD-A3BF-28527A0DA3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F352095D-500F-4FAD-A3BF-28527A0DA3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F352095D-500F-4FAD-A3BF-28527A0DA3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A13177-537D-4960-A27A-D396E84DB502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A13177-537D-4960-A27A-D396E84DB502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A13177-537D-4960-A27A-D396E84DB502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A13177-537D-4960-A27A-D396E84DB502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CD0F68-1E20-484F-9E56-7F3FEFEBA200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CD0F68-1E20-484F-9E56-7F3FEFEBA200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CD0F68-1E20-484F-9E56-7F3FEFEBA200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CD0F68-1E20-484F-9E56-7F3FEFEBA200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADF3B87-7B51-4934-8262-841BE94086B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADF3B87-7B51-4934-8262-841BE94086B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADF3B87-7B51-4934-8262-841BE94086B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADF3B87-7B51-4934-8262-841BE94086B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393665DE-C377-45CA-A113-AB4373AA1B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393665DE-C377-45CA-A113-AB4373AA1B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393665DE-C377-45CA-A113-AB4373AA1B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393665DE-C377-45CA-A113-AB4373AA1B86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEF26800-AA52-48F4-912D-4F4BE5702EB4}
+	EndGlobalSection
+EndGlobal
